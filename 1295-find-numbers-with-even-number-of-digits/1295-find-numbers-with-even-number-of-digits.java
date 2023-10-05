@@ -23,11 +23,13 @@ class Solution {
             n=n*-1; //for negative values make it positive
         }
 
-        while (n>0){
-            n=n/10;
-            count++;
-        }
-        return count;
+//        while (n>0){
+//            n=n/10;
+//            count++;
+//        }
+//        return count;
+
+        return (int) (Math.log10(n)+1);
     }
 }
     
